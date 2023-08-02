@@ -57,6 +57,10 @@
 /Build/*/**
 !/Build/*/PakBlacklist*.txt
 
+# Whitelist Precompiled files
+!Libs**
+!DLLs**
+
 # Built data for maps
 *_BuiltData.uasset
 
